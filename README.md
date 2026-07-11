@@ -1,0 +1,2 @@
+# RichyScript
+RichyScript Language 
