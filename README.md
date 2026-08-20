@@ -6,26 +6,17 @@ L'extension officielle VSCode pour RichyScript
 Le 1er langage de programmation educatif 100% Africain.
 
 Cree par : FURAH LABS
-Site : www.richyscript.com
-Email : contact@furahlabs.com
+Site : www.richyscript.com À Venir
+Email : furahlabs@gmail.com
 
                      1. FONCTIONNALITES
 
-[OK] Coloration Syntaxique : keywords, strings, comments, numbers
-[OK] Snippets Intelligents : 10 raccourcis pour coder plus vite
-[OK] Bouton "Run" : Execute ton code .richy en 1 clic
+
 [OK] Theme "RichyScript Dark" : Theme sombre bleu-nuit
-[OK] Auto-completion : Pour RichBerry, QtDarks, OpenAI
 
                       2. INSTALLATION
 
-Option A : Marketplace VSCode
-1. Ouvre VSCode
-2. Ctrl+Shift+X pour aller dans Extensions  
-3. Cherche "RichyScript"
-4. Clique sur "Installer"
-
-Option B : Fichier .VSIX
+Option A : Fichier .VSIX
 1. Telecharge le .vsix dans Releases Github
 2. Ctrl+Shift+P -> "Extensions: Install from VSIX"
 
@@ -36,7 +27,7 @@ Option B : Fichier .VSIX
 
 2. Utilise les snippets : tape "say" + Tab
 
-3. Clique sur le bouton PLAY ▶️ en haut a droite pour executer
+3. Clique sur le bouton RUN ▶️ en haut a droite pour exécuter
 
 EXEMPLE DE CODE :
 
@@ -48,8 +39,7 @@ say "Bonjour Kinshasa !"
 set nom = ask "C'est quoi ton nom ?"
 say "Enchante " + nom
 
-set led = RichBerry.pin(17)
-led.on()
+
 
 
                       4. LISTE DES SNIPPETS
@@ -60,9 +50,7 @@ if        -> if condition then ... end
 for       -> for i = 1 to 10 ... end
 module    -> module "nom.richy"
 ask       -> set reponse = ask "Question:"
-RichBerry -> Controle Arduino/Raspberry
-QtDark    -> Fenetre popup
-OpenAI    -> Appeler ChatGPT
+
 function  -> function nom() ... end
 
                        5. THEME
@@ -78,12 +66,12 @@ Pour lancer en mode dev :
 
                       7. LICENCE & SUPPORT
 
-Licence : MIT © 2026 FURAH LABS
+Licence :  © 2026 FURAH LABS
 
 Support :
-Site Web : www.richyscript.com
-Email : contact@furahlabs.com
-WhatsApp : Rejoindre la communaute
+Site Web : www.richyscript.com À venir
+Email : furahlabs@gmail.com.com
+WhatsApp : Rejoindre la communauté
 
 Fait avec amour a Kinshasa, RDC
 Apprendre a coder. Construire l'Afrique.
